@@ -18,7 +18,7 @@
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with v.  If not, see <http://www.gnu.org/licenses/>.
+ * along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses/>.
  */
 package com.semanticcms.dia.view;
 
