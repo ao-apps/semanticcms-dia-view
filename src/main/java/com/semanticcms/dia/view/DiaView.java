@@ -24,6 +24,7 @@ package com.semanticcms.dia.view;
 
 import com.aoindustries.encoding.TextInXhtmlEncoder;
 import com.semanticcms.core.model.Page;
+import com.semanticcms.core.servlet.PageUtils;
 import com.semanticcms.core.servlet.View;
 import com.semanticcms.core.servlet.impl.ElementFilterTreeImpl;
 import com.semanticcms.dia.model.Dia;
@@ -55,6 +56,11 @@ public class DiaView extends View {
 	@Override
 	public String getName() {
 		return VIEW_NAME;
+	}
+
+	@Override
+	public boolean isApplicable(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Page page) throws ServletException, IOException {
+		return PageUtils.hasElement(servletContext, request, response, page, Dia.class, true);
 	}
 
 	@Override
