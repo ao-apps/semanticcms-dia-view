@@ -30,7 +30,7 @@ along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses />.
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-dia-view</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS Dia View</name>
@@ -57,7 +57,7 @@ along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-dia-view.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-dia-view.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-dia-view</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-dia-view-1.0</tag>
 	</scm>
 
 	<repositories>
