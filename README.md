@@ -4,7 +4,7 @@
 ## Project Links
 * [Project Home](https://semanticcms.com/dia/view/)
 * [API Docs](https://semanticcms.com/dia/view/apidocs/)
-* [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-dia-view%22)
+* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-dia-view%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-dia-view)
 
 ## Contact Us
