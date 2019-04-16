@@ -64,10 +64,10 @@ along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses />.
 							<links>
 								<link>${javac.link.javaApi}</link>
 								<link>${javac.link.javaeeApi.6}</link>
-								<link>https://aoindustries.com/ao-encoding/apidocs</link>
-								<link>https://semanticcms.com/core/model/apidocs</link>
-								<link>https://semanticcms.com/core/servlet/apidocs</link>
-								<link>https://semanticcms.com/dia/model/apidocs</link>
+								<link>https://aoindustries.com/ao-encoding/apidocs/</link>
+								<link>https://semanticcms.com/core/model/apidocs/</link>
+								<link>https://semanticcms.com/core/servlet/apidocs/</link>
+								<link>https://semanticcms.com/dia/model/apidocs/</link>
 							</links>
 						</configuration>
 					</plugin>
