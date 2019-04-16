@@ -40,7 +40,7 @@ along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses />.
 		<description.html><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a> view of all <a target="_top" href="https://wiki.gnome.org/Apps/Dia/">Dia-based diagrams</a> in the current page and all children.]]></description.html>
 	</properties>
 
-	<name>SemanticCMS 1 Dia View</name>
+	<name>SemanticCMS Dia View</name>
 	<url>https://semanticcms.com/dia/view/</url>
 	<description>SemanticCMS view of all Dia-based diagrams in the current page and all children.</description>
 	<inceptionYear>2013</inceptionYear>
