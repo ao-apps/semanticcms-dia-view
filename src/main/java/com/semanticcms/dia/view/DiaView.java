@@ -25,12 +25,16 @@ package com.semanticcms.dia.view;
 import com.aoindustries.html.Html;
 import com.semanticcms.core.model.Page;
 import com.semanticcms.core.servlet.PageUtils;
+import com.semanticcms.core.servlet.SemanticCMS;
 import com.semanticcms.core.servlet.View;
 import com.semanticcms.core.servlet.impl.ElementFilterTreeImpl;
 import com.semanticcms.dia.model.Dia;
 import java.io.IOException;
 import javax.servlet.ServletContext;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.jsp.SkipPageException;
@@ -40,7 +44,21 @@ import javax.servlet.jsp.SkipPageException;
  */
 public class DiaView extends View {
 
-	static final String VIEW_NAME = "diagrams";
+	public static final String NAME = "diagrams";
+
+	@WebListener("Registers the \"" + NAME + "\" view in SemanticCMS.")
+	public static class Initializer implements ServletContextListener {
+		@Override
+		public void contextInitialized(ServletContextEvent event) {
+			SemanticCMS.getInstance(event.getServletContext()).addView(new DiaView());
+		}
+		@Override
+		public void contextDestroyed(ServletContextEvent event) {
+			// Do nothing
+		}
+	}
+
+	private DiaView() {}
 
 	@Override
 	public Group getGroup() {
@@ -54,7 +72,7 @@ public class DiaView extends View {
 
 	@Override
 	public String getName() {
-		return VIEW_NAME;
+		return NAME;
 	}
 
 	@Override
