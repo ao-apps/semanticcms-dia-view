@@ -30,7 +30,7 @@
 * [Project Home](https://semanticcms.com/dia/view/)
 * [Changelog](https://semanticcms.com/dia/view/changelog)
 * [API Docs](https://semanticcms.com/dia/view/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-dia-view%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-dia-view)
 * [GitHub](https://github.com/aoindustries/semanticcms-dia-view)
 
 ## Contact Us
