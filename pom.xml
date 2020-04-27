@@ -71,9 +71,9 @@ along with semanticcms-dia-view.  If not, see <http://www.gnu.org/licenses />.
 								<link>${javadoc.link.javaee}</link>
 								<!-- Direct -->
 								<link>https://aoindustries.com/ao-fluent-html/apidocs/</link>
-								<link>https://semanticcms.com/core/controller/apidocs/</link>
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/controller/apidocs/</link> -->
 								<link>https://semanticcms.com/core/model/apidocs/</link>
-								<link>https://semanticcms.com/core/renderer/html/apidocs/</link>
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/renderer/html/apidocs/</link> -->
 								<link>https://semanticcms.com/dia/model/apidocs/</link>
 							</links>
 						</configuration>
