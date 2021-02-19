@@ -1,6 +1,6 @@
 /*
  * semanticcms-dia-view - SemanticCMS view of all Dia-based diagrams in the current page and all children.
- * Copyright (C) 2016, 2017, 2020  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,7 @@
  */
 package com.semanticcms.dia.view;
 
-import com.aoindustries.html.Html;
+import com.aoindustries.html.Document;
 import com.semanticcms.core.model.Page;
 import com.semanticcms.core.servlet.PageUtils;
 import com.semanticcms.core.servlet.SemanticCMS;
@@ -100,16 +100,16 @@ public class DiaView extends View {
 	}
 
 	@Override
-	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Html html, Page page) throws ServletException, IOException, SkipPageException {
-		html.out.write("<h1>Diagrams in ");
-		html.text(page.getTitle());
-		html.out.write("</h1>\n");
+	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Document document, Page page) throws ServletException, IOException, SkipPageException {
+		document.out.write("<h1>Diagrams in ");
+		document.text(page.getTitle());
+		document.out.write("</h1>\n");
 		
 		ElementFilterTreeImpl.writeElementFilterTreeImpl(
 			servletContext,
 			request,
 			response,
-			html,
+			document,
 			Dia.class,
 			page,
 			true
