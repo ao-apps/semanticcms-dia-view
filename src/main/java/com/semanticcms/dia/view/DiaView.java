@@ -101,9 +101,9 @@ public class DiaView extends View {
 
 	@Override
 	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Document document, Page page) throws ServletException, IOException, SkipPageException {
-		document.out.write("<h1>Diagrams in ");
-		document.text(page.getTitle());
-		document.out.write("</h1>\n");
+		document.h1__(h1 -> h1
+			.text("Diagrams in ").text(page.getTitle())
+		).nl();
 		
 		ElementFilterTree.writeElementFilterTreeImpl(
 			servletContext,
