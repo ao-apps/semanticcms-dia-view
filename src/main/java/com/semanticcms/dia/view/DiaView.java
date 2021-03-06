@@ -22,7 +22,7 @@
  */
 package com.semanticcms.dia.view;
 
-import com.aoindustries.html.Document;
+import com.aoindustries.html.FlowContent;
 import com.semanticcms.core.model.Page;
 import com.semanticcms.core.servlet.PageUtils;
 import com.semanticcms.core.servlet.SemanticCMS;
@@ -100,8 +100,8 @@ public class DiaView extends View {
 	}
 
 	@Override
-	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Document document, Page page) throws ServletException, IOException, SkipPageException {
-		document.h1__(h1 -> h1
+	public <__ extends FlowContent<__>> void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, __ flow, Page page) throws ServletException, IOException, SkipPageException {
+		flow.h1__(h1 -> h1
 			.text("Diagrams in ").text(page.getTitle())
 		).nl();
 		
@@ -109,7 +109,7 @@ public class DiaView extends View {
 			servletContext,
 			request,
 			response,
-			document,
+			flow,
 			Dia.class,
 			page,
 			true
