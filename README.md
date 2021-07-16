@@ -10,6 +10,12 @@
 
 [![Build](https://github.com/aoindustries/semanticcms-dia-view/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/semanticcms-dia-view/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-dia-view/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-dia-view)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.semanticcms%3Asemanticcms-dia-view)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-dia-view&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-dia-view&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-dia-view&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-dia-view&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-dia-view&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-dia-view&metric=Coverage)
 
 [SemanticCMS](https://github.com/aoindustries/semanticcms) view of all [Dia-based diagrams](https://wiki.gnome.org/Apps/Dia/) in the current page and all children.
 
