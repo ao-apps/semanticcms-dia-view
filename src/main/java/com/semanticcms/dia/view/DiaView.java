@@ -42,7 +42,7 @@ import javax.servlet.jsp.SkipPageException;
 /**
  * View of all Dia-based diagrams in the current page and all children.
  */
-public class DiaView extends View {
+public final class DiaView extends View {
 
 	public static final String NAME = "diagrams";
 
@@ -58,7 +58,9 @@ public class DiaView extends View {
 		}
 	}
 
-	private DiaView() {}
+	private DiaView() {
+		// Do nothing
+	}
 
 	@Override
 	public Group getGroup() {
@@ -104,7 +106,7 @@ public class DiaView extends View {
 		flow.h1__(h1 -> h1
 			.text("Diagrams in ").text(page.getTitle())
 		);
-		
+
 		ElementFilterTreeImpl.writeElementFilterTreeImpl(
 			servletContext,
 			request,
