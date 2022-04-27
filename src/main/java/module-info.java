@@ -33,4 +33,4 @@ module com.semanticcms.dia.view {
   requires com.semanticcms.dia.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-model</artifactId>
   // Transitive
   requires com.semanticcms.core.renderer; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-renderer</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
