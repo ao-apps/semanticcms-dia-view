@@ -47,6 +47,9 @@ public final class DiaView extends View {
 
   public static final String NAME = "diagrams";
 
+  /**
+   * Registers the "{@link #NAME}" view in {@link HtmlRenderer}.
+   */
   @WebListener("Registers the \"" + NAME + "\" view in HtmlRenderer.")
   public static class Initializer implements ServletContextListener {
     @Override
@@ -104,11 +107,16 @@ public final class DiaView extends View {
   }
 
   @Override
-  public <__ extends FlowContent<__>> void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, __ flow, Page page) throws ServletException, IOException, SkipPageException {
+  public <__ extends FlowContent<__>> void doView(
+      ServletContext servletContext,
+      HttpServletRequest request,
+      HttpServletResponse response,
+      __ flow,
+      Page page
+  ) throws ServletException, IOException, SkipPageException {
     flow.h1__(h1 -> h1
-            .text("Diagrams in ").text(page.getTitle())
+        .text("Diagrams in ").text(page.getTitle())
     );
-
     ElementFilterTree.writeElementFilterTreeImpl(
         servletContext,
         request,
