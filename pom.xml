@@ -46,7 +46,7 @@ along with semanticcms-dia-view.  If not, see <https://www.gnu.org/licenses/>.
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>SemanticCMS Dia View²</name>
+  <name>SemanticCMS Dia View</name>
   <url>https://semanticcms.com/dia/view/</url>
   <description>SemanticCMS view of all Dia-based diagrams in the current page and all children.</description>
   <inceptionYear>2013</inceptionYear>

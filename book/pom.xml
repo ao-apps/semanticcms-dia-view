@@ -36,15 +36,15 @@ along with semanticcms-dia-view.  If not, see <https://www.gnu.org/licenses/>.
     <module.name>com.semanticcms.dia.view.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-dia-view</documented.artifactId>
-    <documented.name>SemanticCMS Dia View²</documented.name>
+    <documented.name>SemanticCMS Dia View</documented.name>
     <documented.description>SemanticCMS view of all Dia-based diagrams in the current page and all children.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS Dia View² Book</name>
+  <name>SemanticCMS Dia View Book</name>
   <url>https://semanticcms.com/dia/view/</url>
-  <description>Documentation for SemanticCMS Dia View² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS Dia View in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>
