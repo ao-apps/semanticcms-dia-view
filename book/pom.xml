@@ -41,6 +41,9 @@ along with semanticcms-dia-view.  If not, see <https://www.gnu.org/licenses/>.
     <documented.artifactId>semanticcms-dia-view</documented.artifactId>
     <documented.name>SemanticCMS Dia View</documented.name>
     <documented.description>SemanticCMS view of all Dia-based diagrams in the current page and all children.</documented.description>
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
+/ <a target="${javadoc.target}" href="https://semanticcms.com/dia/">Dia</a>
+/ <a target="${javadoc.target}" href="${project.url}">View</a>]]></javadoc.breadcrumbs>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
     <!-- SonarQube -->
