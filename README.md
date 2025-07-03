@@ -23,7 +23,7 @@
 * [Project Home](https://semanticcms.com/dia/view/)
 * [Changelog](https://semanticcms.com/dia/view/changelog)
 * [API Docs](https://semanticcms.com/dia/view/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-dia-view)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-dia-view)
 * [GitHub](https://github.com/ao-apps/semanticcms-dia-view)
 
 ## Contact Us
